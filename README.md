@@ -54,7 +54,7 @@ for event in joycon.read_loop():
     print(evdev.categorize(event))
 ```
 
-For simple cases it may be great, but I want to be able to read the input of both Joycons at the same time. To make it so, I will use the asyncio library and the Python async/await support added in Python 3.4.
+For simple cases it may be great, but I want to be able to read the input of both Joycons at the same time. To make it so, I will use the asyncio library and the Python async/await support added in Python 3.5.
 
 ```py
 # File: experiments/evdev/wait-for-input-both.py
