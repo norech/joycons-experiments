@@ -79,6 +79,8 @@ loop.run_forever()
 
 ```
 
+I noticed that when pressing ZR or ZL, `evdev.categorize(event)` will fail because the default controller mapping is incorrect.
+
 
 ## Read input in Python with pybluez (failed attempt)
 
